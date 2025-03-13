@@ -1,5 +1,6 @@
-import psycopg2
+import psycopg2 # type: ignore
 
+#configuracion de la base de datos
 DB_CONFIG = {
     "dbname": "etl_db",
     "user": "user",
@@ -13,7 +14,7 @@ def load_data(data):
         with conn.cursor() as cursor:
             for movie in data:
                 cursor.execute(
-                    "INSERT INTO etl_data (id, nombre, categoria, decada, puntuacion_ajustada) VALUES (%s, %s, %s, %s, %s)",
-                    (movie["id"], movie["nombre"], movie["categoria"], movie["decada"], movie["puntuacion_ajustada"])
+                    "INSERT INTO etl_data (id, nombre, categoria, decada, puntuacion) VALUES (%s, %s, %s, %s, %s)",
+                    (movie["id"], movie["nombre"], movie["categoria"], movie["decada"], movie["puntuacion"])
                 )
         conn.commit()
