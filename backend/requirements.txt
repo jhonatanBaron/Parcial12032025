@@ -1,0 +1,5 @@
+Flask
+neo4j
+flask-cors
+python-dotenv
+postgress
