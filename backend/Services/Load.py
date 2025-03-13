@@ -1,5 +1,19 @@
-def load():
-    raw_data = extract_data()
-    transformed_data = Transform_data(raw_data)
-    load_data(transformed_data)
-    return jsonify({"message": "Data loaded successfully"})
+import psycopg2
+
+DB_CONFIG = {
+    "dbname": "etl_db",
+    "user": "user",
+    "password": "password",
+    "host": "postgres",
+    "port": "5432"
+}
+#carga de la data desde la base de datos
+def load_data(data):
+    with psycopg2.connect(**DB_CONFIG) as conn:
+        with conn.cursor() as cursor:
+            for movie in data:
+                cursor.execute(
+                    "INSERT INTO etl_data (id, nombre, categoria, decada, puntuacion_ajustada) VALUES (%s, %s, %s, %s, %s)",
+                    (movie["id"], movie["nombre"], movie["categoria"], movie["decada"], movie["puntuacion_ajustada"])
+                )
+        conn.commit()
