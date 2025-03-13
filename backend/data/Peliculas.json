@@ -1,0 +1,284 @@
+[
+    {
+        "id": 1,
+        "nombre": "Interstellar",
+        "calificacion": 4.2,
+        "año_lanzamiento": 1993,
+        "genero": "Drama"
+    },
+    {
+        "id": 2,
+        "nombre": "The Shawshank Redemption",
+        "calificacion": 4.3,
+        "año_lanzamiento": 2007,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 3,
+        "nombre": "Jurassic Park",
+        "calificacion": 6.3,
+        "año_lanzamiento": 2001,
+        "genero": "Drama"
+    },
+    {
+        "id": 4,
+        "nombre": "The Matrix",
+        "calificacion": 6.9,
+        "año_lanzamiento": 1998,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 5,
+        "nombre": "The Social Network",
+        "calificacion": 9.2,
+        "año_lanzamiento": 1982,
+        "genero": "Terror"
+    },
+    {
+        "id": 6,
+        "nombre": "Schindler's List",
+        "calificacion": 9.3,
+        "año_lanzamiento": 1988,
+        "genero": "Acción"
+    },
+    {
+        "id": 7,
+        "nombre": "Star Wars",
+        "calificacion": 6.7,
+        "año_lanzamiento": 2005,
+        "genero": "Drama"
+    },
+    {
+        "id": 8,
+        "nombre": "The Lion King",
+        "calificacion": 6.1,
+        "año_lanzamiento": 1994,
+        "genero": "Drama"
+    },
+    {
+        "id": 9,
+        "nombre": "Interstellar",
+        "calificacion": 4.3,
+        "año_lanzamiento": 2002,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 10,
+        "nombre": "The Grand Budapest Hotel",
+        "calificacion": 5.6,
+        "año_lanzamiento": 1992,
+        "genero": "Comedia"
+    },
+    {
+        "id": 11,
+        "nombre": "The Silence of the Lambs",
+        "calificacion": 2.4,
+        "año_lanzamiento": 1982,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 12,
+        "nombre": "Spider-Man: No Way Home",
+        "calificacion": 5.4,
+        "año_lanzamiento": 2013,
+        "genero": "Terror"
+    },
+    {
+        "id": 13,
+        "nombre": "Spider-Man: No Way Home",
+        "calificacion": 9.8,
+        "año_lanzamiento": 1995,
+        "genero": "Comedia"
+    },
+    {
+        "id": 14,
+        "nombre": "Django Unchained",
+        "calificacion": 7.7,
+        "año_lanzamiento": 2012,
+        "genero": "Drama"
+    },
+    {
+        "id": 15,
+        "nombre": "Star Wars",
+        "calificacion": 9.7,
+        "año_lanzamiento": 2001,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": [
+    {
+        "id": 1,
+        "nombre": "Interstellar",
+        "calificacion": 4.2,
+        "año_lanzamiento": 1993,
+        "genero": "Drama"
+    },
+    {
+        "id": 2,
+        "nombre": "The Shawshank Redemption",
+        "calificacion": 4.3,
+        "año_lanzamiento": 2007,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 3,
+        "nombre": "Jurassic Park",
+        "calificacion": 6.3,
+        "año_lanzamiento": 2001,
+        "genero": "Drama"
+    },
+    {
+        "id": 4,
+        "nombre": "The Matrix",
+        "calificacion": 6.9,
+        "año_lanzamiento": 1998,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 5,
+        "nombre": "The Social Network",
+        "calificacion": 9.2,
+        "año_lanzamiento": 1982,
+        "genero": "Terror"
+    },
+    {
+        "id": 6,
+        "nombre": "Schindler's List",
+        "calificacion": 9.3,
+        "año_lanzamiento": 1988,
+        "genero": "Acción"
+    },
+    {
+        "id": 7,
+        "nombre": "Star Wars",
+        "calificacion": 6.7,
+        "año_lanzamiento": 2005,
+        "genero": "Drama"
+    },
+    {
+        "id": 8,
+        "nombre": "The Lion King",
+        "calificacion": 6.1,
+        "año_lanzamiento": 1994,
+        "genero": "Drama"
+    },
+    {
+        "id": 9,
+        "nombre": "Interstellar",
+        "calificacion": 4.3,
+        "año_lanzamiento": 2002,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 10,
+        "nombre": "The Grand Budapest Hotel",
+        "calificacion": 5.6,
+        "año_lanzamiento": 1992,
+        "genero": "Comedia"
+    },
+    {
+        "id": 11,
+        "nombre": "The Silence of the Lambs",
+        "calificacion": 2.4,
+        "año_lanzamiento": 1982,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 12,
+        "nombre": "Spider-Man: No Way Home",
+        "calificacion": 5.4,
+        "año_lanzamiento": 2013,
+        "genero": "Terror"
+    },
+    {
+        "id": 13,
+        "nombre": "Spider-Man: No Way Home",
+        "calificacion": 9.8,
+        "año_lanzamiento": 1995,
+        "genero": "Comedia"
+    },
+    {
+        "id": 14,
+        "nombre": "Django Unchained",
+        "calificacion": 7.7,
+        "año_lanzamiento": 2012,
+        "genero": "Drama"
+    },
+    {
+        "id": 15,
+        "nombre": "Star Wars",
+        "calificacion": 9.7,
+        "año_lanzamiento": 2001,
+        "genero": "Ciencia Ficción"
+    },
+    {
+        "id": 16,
+        "nombre": "The Godfather",
+        "calificacion": 9.2,
+        "año_lanzamiento": 1972,
+        "genero": "Drama"
+    },
+    {
+        "id": 17,
+        "nombre": "The Dark Knight",
+        "calificacion": 9.3,
+        "año_lanzamiento": 2008,
+        "genero": "Acción"
+    },
+    {
+        "id": 18,
+        "nombre": "The Godfather",
+        "calificacion": 9.1,
+        "año_lanzamiento": 1974,
+        "genero": "Drama"
+    },
+    {
+        "id": 19,
+        "nombre": "The Dark Knight",
+        "calificacion": 9.2,
+        "año_lanzamiento": 2008,
+        "genero": "Acción"
+    },
+    {
+        "id": 20,
+        "nombre": "The Godfather",
+        "calificacion": 9.3,
+        "año_lanzamiento": 1974,
+        "genero": "Drama"
+    },
+    {
+        "id": 21,
+        "nombre": "The Dark Knight",
+        "calificacion": 9.4,
+        "año_lanzamiento": 2008,
+        "genero": "Acción"
+    },
+    {
+        "id": 22,
+        "nombre": "The Godfather",
+        "calificacion": 9.5,
+        "año_lanzamiento": 1974,
+        "genero": "Drama"
+    },
+    {
+        "id": 23,
+        "nombre": "The Dark Knight",
+        "calificacion": 9.6,
+        "año_lanzamiento": 2008,
+        "genero": "Acción"
+    },
+    {
+        "id": 24,
+        "nombre": "The Godfather",
+        "calificacion": 9.7,
+        "año_lanzamiento": 1974,
+        "genero": "Drama"
+    },
+    {
+        "id": 25,
+        "nombre": "The Dark Knight",
+        "calificacion": 9.8,
+        "año_lanzamiento": 2008,
+        "genero": "Acción"
+    }
+}]
