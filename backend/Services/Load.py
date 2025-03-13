@@ -1,6 +1,6 @@
 import psycopg2 # type: ignore
 
-#configuracion de la base de datos
+#configuracion de la base 
 DB_CONFIG = {
     "dbname": "etl_db",
     "user": "user",
@@ -8,7 +8,7 @@ DB_CONFIG = {
     "host": "postgres",
     "port": "5432"
 }
-#carga de la data desde la base de datos
+#carga de la data desde la base 
 def load_data(data):
     with psycopg2.connect(**DB_CONFIG) as conn:
         with conn.cursor() as cursor:
